@@ -1,4 +1,4 @@
-package com.timo.entity;
+package com.timo.bean;
 
 /**
  * @author wmx

@@ -7,9 +7,8 @@
 
 	<context:component-scan base-package="com.timo" use-default-filters="false"></context:component-scan>
 
-	<bean id="user" class="com.timo.entity.User">
+	<bean id="user" class="com.timo.bean.User" lazy-init="true" scope="singleton" >
 		<property name="userName" value="zhangsan"></property>
 		<property name="password" value="123456"></property>
 	</bean>
-
 </beans>
